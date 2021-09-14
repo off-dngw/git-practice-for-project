@@ -9,6 +9,8 @@ const MyPage = () => {
     (tweet) => tweet.username === 'parkhacker'
   );
 
+
+
   return (
     <section className="myInfo">
       <div className="myInfo__container">
@@ -20,7 +22,7 @@ const MyPage = () => {
             <p className="myInfo__detailName">
               {filteredTweets[0].username} Profile
             </p>
-            <p>28 팔로워 100 팔로잉</p>
+            <p>28 팔로워 100 팔로잉!!</p>
           </div>
         </div>
       </div>
